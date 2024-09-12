@@ -1,7 +1,12 @@
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("Venix | 9/11 Edition", "Default")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("VenixBlue | V1.05", "Ocean")
 -- Tabs
-local tab1 = DrRayLibrary.newTab("Player", "ImageIdHere")
-local tab2 = DrRayLibrary.newTab("Scripts", "ImageIdHere")
-local tab3 = DrRayLibrary.newTab("Guis", "ImageIdHere")
-local tab4 = DrRayLibrary.newTab("Animations", "ImageIdHere")
+local Tab1 = Window:NewTab("Home")
+local Tab2 = Window:NewTab("Player")
+local Tab3 = Window:NewTab("Scripts")
+local Tab4 = Window:NewTab("Guis")
+-- Tabs End
+local Section = Tab1:NewSection("Update Logs")
+Section:NewLabel("V1.05 | Fixed some scripts not executing.")
+Section:NewLabel("V1.04 | Minor bug fixes.")
+Section:NewLabel("V1.B3 | Added Guis tab.")
