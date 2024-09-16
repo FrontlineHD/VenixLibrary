@@ -26,7 +26,7 @@ local Tab2 = Window:MakeTab({
 })
 local Tab3 = Window:MakeTab({
 	Name = "Scripts",
-	Icon = "rbxassetid://7734053426",
+	Icon = "rbxassetid://7743866778",
 	PremiumOnly = false
 })
 local Tab4 = Window:MakeTab({
