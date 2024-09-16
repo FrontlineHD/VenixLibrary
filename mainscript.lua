@@ -51,3 +51,24 @@ OrionLib:MakeNotification({
 	Image = "http://www.roblox.com/asset/?id=17055169796",
 	Time = 5
 })
+-- Admin section
+-- Yield
+local IYSection = Tab5:AddSection({
+	Name = "Infinite Yield"
+})
+Tab5:AddButton({
+	Name = "InfiniteYield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+  	end    
+})
+local CMDXSection = Tab5:AddSection({
+	Name = "Command-X"
+})
+-- CMDX
+Tab5:AddButton({
+	Name = "CMD-X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+  	end    
+})
