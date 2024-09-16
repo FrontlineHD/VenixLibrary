@@ -11,37 +11,37 @@ print("Loading universal...")
 
 local Tab1 = Window:MakeTab({
 	Name = "Home",
-	Icon = "rbxassetid://7733799795",
+	Icon = "rbxassetid://7733960981",
 	PremiumOnly = false
 })
 local TabM2 = Window:MakeTab({
 	Name = "MM2",
-	Icon = "http://www.roblox.com/asset/?id=13060262529",
+	Icon = "rbxassetid://7733799795",
 	PremiumOnly = false
 })
 local Tab2 = Window:MakeTab({
 	Name = "Player",
-	Icon = "http://www.roblox.com/asset/?id=2795572800",
+	Icon = "rbxassetid://7743871002",
 	PremiumOnly = false
 })
 local Tab3 = Window:MakeTab({
 	Name = "Scripts",
-	Icon = "http://www.roblox.com/asset/?id=9405930424",
+	Icon = "rbxassetid://8997388036",
 	PremiumOnly = false
 })
 local Tab4 = Window:MakeTab({
 	Name = "GUI's",
-	Icon = "http://www.roblox.com/asset/?id=16149179345",
+	Icon = "rbxassetid://7743872929",
 	PremiumOnly = false
 })
 local Tab5 = Window:MakeTab({
 	Name = "Admin",
-	Icon = "http://www.roblox.com/asset/?id=11656483170",
+	Icon = "rbxassetid://7743878358",
 	PremiumOnly = false
 })
 local Tab6 = Window:MakeTab({
 	Name = "Animations",
-	Icon = "http://www.roblox.com/asset/?id=100041384303356",
+	Icon = "rbxassetid://7733955850",
 	PremiumOnly = false
 })
 -- Notifications
