@@ -3,4 +3,3 @@ if game.PlaceId == 142823291 then
 else
   print("not mm2")
 end
-end)
