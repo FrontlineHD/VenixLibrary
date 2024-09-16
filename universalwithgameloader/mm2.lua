@@ -7,7 +7,7 @@ print("Fetching discord link...")
 print("Fetched successfully")
 print("Version B2.06E updated at 9:58AM")
 print("Checking game...")
-print("Loading universal...")
+print("Loading universal..")
 
 local Tab1 = Window:MakeTab({
 	Name = "Home",
