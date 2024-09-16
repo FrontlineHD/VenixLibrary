@@ -11,7 +11,7 @@ print("Loading universal...")
 
 local Tab1 = Window:MakeTab({
 	Name = "Home",
-	Icon = "http://www.roblox.com/asset/?id=13060262529",
+	Icon = "rbxassetid://7733799795",
 	PremiumOnly = false
 })
 local TabM2 = Window:MakeTab({
