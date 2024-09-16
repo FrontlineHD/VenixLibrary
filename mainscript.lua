@@ -10,7 +10,7 @@ print("Checking game...")
 print("Loading universal...")
 local Tab1 = Window:MakeTab({
 	Name = "Home",
-	Icon = "http://www.roblox.com/asset/?id=13060262529",
+	Icon = "rbxassetid://7733960981",
 	PremiumOnly = false
 })
 local Tab2 = Window:MakeTab({
@@ -25,7 +25,7 @@ local Tab3 = Window:MakeTab({
 })
 local Tab4 = Window:MakeTab({
 	Name = "GUI's",
-	Icon = "http://www.roblox.com/asset/?id=16149179345",
+	Icon = "rbxassetid://7743872929",
 	PremiumOnly = false
 })
 local Tab5 = Window:MakeTab({
