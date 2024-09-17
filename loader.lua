@@ -53,3 +53,4 @@ Tab:AddButton({
       end
   	end    
 })
+Tab:AddParagraph("Why did we add this?","Its simple actually, by going through the key system links you can support the owner directly for his work. I wasted my time gathering a lot of scripts and putting it in one place. I hope you enjoy this hub / script i made and if you have any issues, join the discord so i can support you from there.")
