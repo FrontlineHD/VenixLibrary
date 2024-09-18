@@ -1,5 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Venix | #1 Script Library", HidePremium = true, SaveConfig = true, ConfigFolder = "Venix", IntroText = "Loading Venix...", IntroIcon = "http://www.roblox.com/asset/?id=16223149136"})
+local Player = game.Players.LocalPlayer
+OrionLib:MakeNotification({
+	Name = "Logged in!",
+	Content = "You are logged in as "..Player.Name..".",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
 -- LUA.LIVE
 print("Loaded VSL")
 print("Fetching discord link...")
@@ -94,3 +101,9 @@ _G.UI_Id = "default" --set this to "default" for the default ui
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5e6e6cc1bb32fd926764d064e2c60a3b.lua"))()
   	end    
 })
+-- Home
+local Section = Tab1:AddSection({
+	Name = "Home"
+})
+Tab1:AddLabel("Current Update: B2.07E | Updated at 2:40PM")
+Tab1:AddLabel("Hello, "..Player.Name.."!")
