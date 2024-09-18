@@ -1,13 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Venix | #1 Script Library", HidePremium = true, SaveConfig = true, ConfigFolder = "Venix", IntroText = "Loading Venix...", IntroIcon = "http://www.roblox.com/asset/?id=16223149136"})
 -- LUA.LIVE
-print("JNHH GAMING IS A TRUE SKID!!!")
 print("Loaded VSL")
 print("Fetching discord link...")
 print("Fetched successfully")
-print("Version B2.06E updated at 9:58AM")
-print("Checking game...")
+print("Version B2.07E updated at 2:40PM")
 print("Loading universal...")
+-- Tabs
 local Tab1 = Window:MakeTab({
 	Name = "Home",
 	Icon = "rbxassetid://7733960981",
@@ -70,5 +69,28 @@ Tab5:AddButton({
 	Name = "CMD-X",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+  	end    
+})
+-- Nameless admin
+local Section = Tab:AddSection({
+	Name = "Nameless Admin"
+})
+Tab5:AddButton({
+	Name = "Nameless Admin",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+  	end    
+})
+-- YI9032
+local Section = Tab:AddSection({
+	Name = "Proton Admin"
+})
+Tab5:AddButton({
+	Name = "Proton Admin",
+	Callback = function()
+      		-- DEFAULT CMD BAR PREFIX IS ;
+-- DEFAULT CHAT PREFIX IS /
+_G.UI_Id = "default" --set this to "default" for the default ui
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5e6e6cc1bb32fd926764d064e2c60a3b.lua"))()
   	end    
 })
