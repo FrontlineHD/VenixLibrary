@@ -4,7 +4,7 @@ local Player = game.Players.LocalPlayer
 OrionLib:MakeNotification({
 	Name = "Logged in!",
 	Content = "You are logged in as "..Player.Name..".",
-	Image = "rbxassetid://4483345998",
+	Image = "http://www.roblox.com/asset/?id=17055169796",
 	Time = 5
 })
 -- LUA.LIVE
