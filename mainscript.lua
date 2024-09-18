@@ -60,7 +60,7 @@ Tab2:AddSlider({
 	Min = 16,
 	Max = 500,
 	Default = 16,
-	Color = Color3.fromRGB(255,255,255),
+	Color = Color3.fromRGB(255,144,144),
 	Increment = 1,
 	ValueName = "Speed",
 	Callback = function(Value)
@@ -75,49 +75,12 @@ Tab2:AddSlider({
 	Min = 50,
 	Max = 700,
 	Default = 50,
-	Color = Color3.fromRGB(255,255,255),
+	Color = Color3.fromRGB(144,165,255),
 	Increment = 1,
 	ValueName = "JumpPower",
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 	end    
-})
-local GravSection = Tab2:AddSection({
-	Name = "Gravity"
-})
-Tab2:AddSlider({
-	Name = "Change Gravity",
-	Min = 0,
-	Max = 700,
-	Default = 192.2,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "JumpPower",
-	Callback = function(Value)
-		game.workspace.gravity = Value
-	end    
-})
-local FOVSection = Tab2:AddSection({
-	Name = "Field Of View"
-})
-Tab2:AddTextbox({
-	Name = "FOV",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		local runService=game:GetService("RunService")
-local camera=workspace.Camera
-local fov=Value
-
-
-runService.RenderStepped:Connect(function()
-	camera.FieldOfView=fov
-	if fov>=120 then
-		local dv=(1.7320508075688767*((camera.ViewportSize.Y/2)/math.tan(math.rad(fov/2))))/(camera.ViewportSize.Y/2)
-		camera.CFrame*=CFrame.new(0,0,0,dv,0,0,0,dv,0,0,0,1)
-	end
-end)
-	end	  
 })
 
 -- Admin section
