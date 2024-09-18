@@ -79,7 +79,7 @@ Tab5:AddButton({
   	end    
 })
 -- Nameless admin
-local Section = Tab:AddSection({
+local Section = Tab5:AddSection({
 	Name = "Nameless Admin"
 })
 Tab5:AddButton({
@@ -89,7 +89,7 @@ Tab5:AddButton({
   	end    
 })
 -- YI9032
-local Section = Tab:AddSection({
+local Section = Tab5:AddSection({
 	Name = "Proton Admin"
 })
 Tab5:AddButton({
