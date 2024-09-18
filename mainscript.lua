@@ -102,8 +102,27 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5e6e6cc1bb32fd
   	end    
 })
 -- Home
-local Section = Tab1:AddSection({
+local HomeSection = Tab1:AddSection({
 	Name = "Home"
 })
+Tab1:AddLabel("Hello, "..Player.DisplayName.."! | @"..Player.Name..".")
 Tab1:AddLabel("Current Update: B2.07E | Updated at 2:40PM")
-Tab1:AddLabel("Hello, "..Player.Name.."!")
+
+local AnncSection = Tab1:AddSection({
+	Name = "Announcements"
+})
+Tab1:AddLabel("Nil.")
+local AnncSection = Tab1:AddSection({
+	Name = "Whats New?"
+})
+Tab1:AddLabel("Removed Patched GUIS.")
+local DiscordSection = Tab1:AddSection({
+	Name = "Discord"
+})
+Tab1:AddLabel("Join our discord!")
+Tab1:AddButton({
+	Name = "Copy Invite!",
+	Callback = function()
+      		setclipboard("https://discord.gg/zdTarD7eGx")
+  	end    
+})
