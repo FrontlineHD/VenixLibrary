@@ -82,6 +82,21 @@ Tab2:AddSlider({
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 	end    
 })
+local TPSection = Tab2:AddSection({
+	Name = "Teleport"
+})
+Tab2:AddTextbox({
+	Name = "Teleport to player",
+	Default = "Username",
+	TextDisappear = true,
+	Callback = function(Value)
+		targetUsername = Value
+
+players = game:GetService("Players")
+targetPlayer = players:FindFirstChild(targetUsername)
+players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
+	end	  
+})
 
 -- Admin section
 -- Yield
