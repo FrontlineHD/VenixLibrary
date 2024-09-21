@@ -97,7 +97,7 @@ targetPlayer = players:FindFirstChild(targetUsername)
 players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
 	end	  
 })
-Tab1:AddLabel("Please input username and not display name!")
+Tab2:AddLabel("Please input username and not display name!")
 
 -- Admin section
 -- Yield
