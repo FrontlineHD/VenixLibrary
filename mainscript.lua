@@ -60,7 +60,7 @@ Tab2:AddSlider({
 	Min = 16,
 	Max = 500,
 	Default = 16,
-	Color = Color3.fromRGB(255,144,144),
+	Color = Color3.fromRGB(133,250,112),
 	Increment = 1,
 	ValueName = "Speed",
 	Callback = function(Value)
@@ -75,7 +75,7 @@ Tab2:AddSlider({
 	Min = 50,
 	Max = 700,
 	Default = 50,
-	Color = Color3.fromRGB(144,165,255),
+	Color = Color3.fromRGB(133,250,112),
 	Increment = 1,
 	ValueName = "JumpPower",
 	Callback = function(Value)
