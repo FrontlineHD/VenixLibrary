@@ -97,6 +97,7 @@ targetPlayer = players:FindFirstChild(targetUsername)
 players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
 	end	  
 })
+Tab1:AddLabel("Please input username and not display name!")
 
 -- Admin section
 -- Yield
@@ -153,7 +154,7 @@ local AnncSection = Tab1:AddSection({
 	Name = "Announcements"
 })
 Tab1:AddLabel("Nil.")
-local AnncSection = Tab1:AddSection({
+local WhatsNewSection = Tab1:AddSection({
 	Name = "Whats New?"
 })
 Tab1:AddLabel("Removed Patched GUIS.")
