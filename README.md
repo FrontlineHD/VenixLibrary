@@ -41,3 +41,5 @@ For assistance, please refer to the documentation or reach out to our support te
 ## 7. How do I report an issue?
 
 If you encounter any issues, please submit a report through our issue tracker on GitHub or contact our support team.
+
+<a href="https://yourwebsite.com" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007bff; text-align: center; text-decoration: none; border-radius: 5px;">Visit Our Site</a>
