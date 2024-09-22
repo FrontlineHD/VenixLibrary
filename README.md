@@ -32,11 +32,11 @@ You may modify the scripts as long as you comply with their original licenses. P
 
 ## 5. What games are supported by Venix?
 
-Venix aims to support a wide range of games. You can find a list of supported games in the documentation or on our website.
+Venix aims to support a wide range of games. You can find a list of supported games in the documentation on our discord.
 
 ## 6. Where can I get help or support?
 
-For assistance, please refer to the documentation or reach out to our support team via [contact method].
+For assistance, please refer to the documentation or reach out to our support team via discord.
 
 ## 7. How do I report an issue?
 
