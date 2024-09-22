@@ -6,29 +6,29 @@ Venix is a script library designed to support a wide variety of games with stron
 
 # FAQ
 ---
-# 1. What is Venix?
+## 1. What is Venix?
 Venix is a script library that supports a wide variety of games and features strong graphical user interfaces (GUIs). It includes a key system for access to its scripts.
 
-# 2. How do I access the scripts?
+## 2. How do I access the scripts?
 ---
 To access the scripts, you will need to obtain a key. Follow the instructions provided in the library for acquiring a key.
 
-# 3. Is Venix really ad-free?
+## 3. Is Venix really ad-free?
 ---
 Yes, Venix is completely ad-free, allowing you to use the scripts without interruptions from advertisements.
 
-# 4. Can I modify the scripts?
+## 4. Can I modify the scripts?
 ---
 You may modify the scripts as long as you comply with their original licenses. Please check the licensing information for each script.
 
-# 5. What games are supported by Venix?
+## 5. What games are supported by Venix?
 ---
 Venix aims to support a wide range of games. You can find a list of supported games in the documentation or on our website.
 
-# 6. Where can I get help or support?
+## 6. Where can I get help or support?
 ---
 For assistance, please refer to the documentation or reach out to our support team via [contact method].
 
-# 7. How do I report an issue?
+## 7. How do I report an issue?
 ---
 If you encounter any issues, please submit a report through our issue tracker on GitHub or contact our support team.
