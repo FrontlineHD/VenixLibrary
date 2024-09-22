@@ -42,4 +42,4 @@ For assistance, please refer to the documentation or reach out to our support te
 
 If you encounter any issues, please submit a report through our issue tracker on GitHub or contact our support team.
 
-<a href="URL" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007bff; text-align: center; text-decoration: none; border-radius: 5px;">Button Text</a>
+<a href="https://discord.gg/zdTarD7eGx" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007bff; text-align: center; text-decoration: none; border-radius: 5px;">Join our discord</a>
