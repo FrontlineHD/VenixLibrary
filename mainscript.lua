@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local executor = identifyexecutor()
-local Window = OrionLib:MakeWindow({Name = "Venix | #1 Script Library | ".. executor".", HidePremium = true, SaveConfig = true, ConfigFolder = "Venix", IntroText = "Loading Venix...", IntroIcon = "http://www.roblox.com/asset/?id=16223149136"})
+local Window = OrionLib:MakeWindow({Name = "Venix | #1 Script Library | " .. executor, HidePremium = true, SaveConfig = true, ConfigFolder = "Venix", IntroText = "Loading Venix...", IntroIcon = "http://www.roblox.com/asset/?id=16223149136"})
 local Player = game.Players.LocalPlayer
 OrionLib:MakeNotification({
 	Name = "Logged in!",
